@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "heroku builds:create -a vue-quasar-pwa",
+    "deploy-logs": "heroku logs --tail --app vue-quasar-pwa"
+  },
+  "author": "Shashwat",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^0.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.1.1",
+    "nodemon": "^2.0.4"
+  }
+}
