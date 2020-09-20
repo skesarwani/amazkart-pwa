@@ -12,7 +12,7 @@
       <!-- the path should end with the name without the extension e.g. if file is 'pinball.fset' the path should end with 'pinball' -->
       <a-nft
         type="nft"
-        url="../assets/nft-images/osram/osram-compressed-2"
+        url="https://arjs-cors-proxy.herokuapp.com/https://github.com/skesarwani/amazkart-pwa/tree/master/src/assets/nft-images/osram2/osram2"
         smooth="true"
         smoothCount="10"
         smoothTolerance=".01"
@@ -20,7 +20,7 @@
       >
           <!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
           <a-entity
-              gltf-model="https://firebasestorage.googleapis.com/v0/b/pwa-quasar-vue.appspot.com/o/tiger-man.gltf?alt=media&token=8e514eea-af55-41c1-8294-7046ce948bf3"
+              gltf-model="https://arjs-cors-proxy.herokuapp.com/https://github.com/skesarwani/amazkart-pwa/tree/master/src/assets/gltf-models/building/scene.gltf"
               scale="5 5 5"
               position="50 150 0"
           >

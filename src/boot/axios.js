@@ -9,4 +9,6 @@ Vue.config.ignoredElements = [
     'a-camera',
     'a-box',
     'a-nft'
-  ]
+  ];
+
+//   Vue.http.headers.common['Access-Control-Allow-Origin'] = '*'
